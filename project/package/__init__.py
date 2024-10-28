@@ -1,9 +1,11 @@
 import os.path
 
-from jl95terceira.pytools.envlib import var
+from jl95terceira.pytools.envlib import vars,var
 
-JDK_HOMES        = var(name       ='jdk.homes', 
-                       description='a map (dict) of Java homes by version (as a string)')
+JDK_HOMES:vars.Var[dict[str,str]] \
+                 = var(name       ='jdk.homes', 
+                       description='a map (dict) of Java homes by version (as a string)',
+                       default    =dict())
 MAVEN_HOME       = var(name       ='maven.home', 
                        description='the home of Apache Maven')
 MAVEN            = var(name       ='maven', 
