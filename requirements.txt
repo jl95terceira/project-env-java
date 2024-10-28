@@ -1,0 +1,2 @@
+jl95terceira_batteries==1.0.0b
+jl95terceira_pytools_env==0.1.0
