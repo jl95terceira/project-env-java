@@ -1,1 +1,1 @@
-Environment variables collection - Git
+Environment variables collection - Java
