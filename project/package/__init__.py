@@ -1,6 +1,6 @@
 import os.path
 
-from jl95terceira.pytools.envlib import vars,var
+from jl95.pytools.envlib import vars,var
 
 JDK_HOMES:vars.Var[dict[str,str]] \
                     = var(name       ='jdk.homes', 
